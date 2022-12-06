@@ -1,52 +1,104 @@
-h1 {
-    color: #111;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 275px;
-    font-weight: bold;
-    letter-spacing: -1px;
-    line-height: 1;
-    text-align: center;
+div p.latin-quote {
+  text-decoration: underline;
 }
 
+.active {
+  text-indent: 50px;
+}
+
+.quotes span {
+  background-color: yellow;
+}
+
+.wikipedia,
+.unknown {
+  text-transform: uppercase;
+}
+
+.form-button:hover {
+  background-color: pink;
+}
+
+
+
+h1 {
+  color: #111;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 275px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+}
+
+#ugly-webby-heading {
+    font-size: 75px;
+}
+
+/* h1 {
+    font-size: 75px;
+} */
+
 p {
-    color: #685206;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    margin: 0 0 24px;
-    text-align: justify;
-    text-justify: inter-word;
+  color: #685206;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 24px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 textarea {
-    margin: 20px;
-    width: 300px;
-    height: 150px;
+  margin: 20px;
+  width: 300px;
+  height: 150px;
 }
 
-ul, ol {
-    margin: 20px;
-    padding: 0;
+ul,
+ol {
+  margin: 20px;
+  padding: 0;
 }
 
 li {
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-    border-bottom: 1px solid #ccc;
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
 }
-   
+
 li:last-child {
-    border: none;
+  border: none;
 }
 
 form {
-    height:110px;
-    width:190px;
-    margin:auto;
-    border:1px #CCC solid;
-    padding:10px;
+  height: 110px;
+  width: 190px;
+  margin: auto;
+  border: 1px #ccc solid;
+  padding: 10px;
 }
-    
-input, textarea {
-    padding:5px;
-    margin:5px
+
+input,
+textarea {
+  padding: 5px;
+  margin: 5px;
 }
+
+/* #main-body {
+    background-color: green;
+  }
+  
+  .quotes {
+    background-color: blue;
+  }
+  div p.latin-quote div #hello {
+      background-color: blue;
+  }
+  
+  p.latin-quote {
+    border: 10px solid red;
+  }
+  
+  .unknown {
+    color: yellow;
+  } */
